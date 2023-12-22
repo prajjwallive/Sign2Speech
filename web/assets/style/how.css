@@ -1,0 +1,156 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.about-us-container {
+    width: 90vw;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.about-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-dynoacademy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dynoacademy {
+    margin: 20px;
+}
+
+.about-dynoacademy h3 {
+    font-size: 28px;
+    line-height: 2;
+}
+
+.about-dynoacademy p {
+    line-height: 2;
+}
+
+.final-msg p {
+    margin: 50px 10px;
+    font-weight: 800;
+    line-height: 2;
+}
+
+.motivation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    /* margin: 110px 20px; */
+}
+
+.motivation .col1 h3 {
+    width: 40vw;
+    font-size: 28px;
+    line-height: 38px;
+    margin: 20px 0;
+}
+
+.motivation .col1 p {
+    width: 50vw;
+    line-height: 1.5;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.motivation .col1 .col1-insider .row {
+    padding: 20px;
+}
+
+.motivation .col1 .col1-insider p {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.col1-insider .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motivation .col2 img {
+    height: 30rem;
+    background-color: #000000;
+    border-radius: 50%;
+    /* overflow-y: hidden; */
+}
+
+
+@media only screen and (max-width:840px) {
+
+
+    .about-dynoacademy {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .about-dynoacademy img {
+        height: 14rem;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 429px) and (max-width: 835px) {
+    /* navbar media query  style */
+
+
+
+    .motivation {
+        flex-direction: column;
+        padding: 20px;
+        /* margin: 110px 20px; */
+    }
+
+    .motivation .col1 h3 {
+        width: 100%;
+        font-size: 20px;
+        line-height: 28px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .motivation .col1 p {
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .motivation .col1 .col1-insider .row h4 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .motivation .col1 .col1-insider .row {
+        padding: 14px;
+    }
+
+    .motivation .col1 .col1-insider p {
+        font-size: 14px;
+    }
+
+    .motivation .col2 img {
+        height: 25rem;
+    }
+
+
+}

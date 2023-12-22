@@ -1,0 +1,21 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+:root {
+  --dark: #000000;
+  --basic: #ffffff;
+  --hover: #e50914;
+  --transparent: rgba(0, 0, 0, 0.2);
+}
+
+.about-us {
+  background-image: url(../image/xa.webp);
+  /* background-size: cover; */
+  background-position: top ;
+  height: 100vh;
+}
